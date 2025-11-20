@@ -49,4 +49,62 @@ This project helped me practice data cleaning, feature engineering, visualizatio
 
 - Rating
 
-  *Format*:CSV
+*Format*:CSV
+
+---
+
+# Data Cleaning & Preprocessing
+*Steps performed before analysis:*
+
+- Removed missing, null, and inconsistent values
+
+- Normalized placeholders like "Not Given"
+
+- Converted date columns into usable datetime format
+
+- Split genre and country columns into lists for analysis
+
+- Extracted numerical duration values from strings
+
+- Created derived fields like duration_min and year_added
+
+- Standardized column names for consistency
+
+These steps ensured that the dataset was clean and analysis-ready.
+
+---
+
+## Tech Stack
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
+
+---
+
+# Key Insights:
+Netflix’s catalog is dominated by Movies, but TV Shows have shown consistent growth over the years.
+
+Dramatically increased content additions between 2016–2019 reflect Netflix’s global expansion phase.
+
+Drama, International Movies, and Documentaries are among the top genres.
+
+The United States and India are the highest content-producing countries.
+
+TV-MA, TV-14, and PG-13 ratings appear the most — showing a strong presence of mature-themed content.
+
+Most movies fall within a runtime of 80–120 minutes, with documentaries often forming the longer-duration outliers.
+
+---
+
+# About Me:
+*Vaishnavi Sinha*
+
+[Github](github.com/Vaishnavi-020/) | [LinkedIn](https://www.linkedin.com/in/vaishnavi-sinha-v2005/)
