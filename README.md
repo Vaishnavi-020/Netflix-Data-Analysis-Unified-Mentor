@@ -62,10 +62,6 @@ This project helped me practice data cleaning, feature engineering, visualizatio
 
 - Converted date columns into usable datetime format
 
-- Split genre and country columns into lists for analysis
-
-- Extracted numerical duration values from strings
-
 - Created derived fields like duration_min and year_added
 
 - Standardized column names for consistency
